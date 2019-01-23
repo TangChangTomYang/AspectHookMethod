@@ -19,52 +19,67 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7A-7Q-kqW">
-                                <rect key="frame" x="60" y="169" width="215" height="30"/>
+                                <rect key="frame" x="10" y="164" width="300" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.92298935969999996" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="hook After once"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="hook After once">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="hookAfterOnce_BtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ajm-Hu-fqr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6aa-L7-oxZ">
-                                <rect key="frame" x="60" y="217" width="215" height="30"/>
+                                <rect key="frame" x="10" y="212" width="300" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.92298935969999996" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="hook replace once"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="hook replace once">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="hookReplaceOnce_BtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="358-Fk-znc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7x-Dd-hWl">
-                                <rect key="frame" x="60" y="268" width="215" height="30"/>
+                                <rect key="frame" x="10" y="263" width="300" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.92298935969999996" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="hook before always"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="hook before always">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="hookBeforeAlways_BtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ye6-0m-rzk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pz0-It-LjT">
-                                <rect key="frame" x="60" y="320" width="215" height="30"/>
+                                <rect key="frame" x="10" y="315" width="300" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.92298935969999996" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="执行"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="执行">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="doTest_BtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KaU-J0-NnD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J1E-eZ-Jxp">
-                                <rect key="frame" x="60" y="123" width="215" height="30"/>
+                                <rect key="frame" x="10" y="118" width="300" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.92298935969999996" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="清除 hook"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="清除 hook">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="clearHook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R4W-pS-WMA"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
